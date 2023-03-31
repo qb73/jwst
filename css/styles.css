@@ -166,7 +166,7 @@ form {
 	height: 60%;
 	border: 10px #BDB5E5 solid; /* Light Blue */
 	background-color: #0E131B; /* Black */
-	padding: 50px;
+	padding: 30px;
 	margin-left: 550px;
 	font-size: 1.25em;
 }
@@ -180,6 +180,7 @@ input {
 
 label {
 	color: #FFFFFF; /* White */
+	font-size: 1.1em;
 }
 
 input[type=text] {
