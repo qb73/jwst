@@ -1,0 +1,268 @@
+/* CSS Document */
+
+/* Color Scheme 
+Light Yellow - #EFF3D4
+Light Blue - #BDB5E5
+Orange - #D67135
+Brown - #B36C39
+White - #FFFFFF
+Black - #0E131B
+*/
+
+/* CSS Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Header Styles */
+
+header {
+	background-color: #FFFFFF; /* White */
+	padding: 100px 50px;
+}
+
+.imageL {
+	background-image: url("../images/jamesWebbIdentifier.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+h1, blockquote {
+	color: #D67135; /* Orange */
+	text-align: right;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+blockquote {
+	font-size: 3.5em;
+}
+
+/* End of Header Styles */
+
+
+/* (Top) Navigation Styles */
+
+nav {
+	background-color: #0E131B; /* Black */
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: #FFFFFF; /* White */
+	background-color: #0E131B; /* Black */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #0E131B; /* Black */
+	background-color: #FFFFFF; /* White */
+}
+
+.topNav {
+	padding: 30px;
+}
+
+.topNav a {
+	padding: 30px;
+	text-align: center;
+	font-size: 2em;
+}
+
+/* End of Navigation Styles */
+
+
+/*  Main Styles */
+
+main {
+	background-color: #EFF3D4; /* Light Yellow */
+	padding: 125px 50px;
+}
+
+h2, h3, h4, p {
+	color: #B36C39; /* Dark Brown */
+	margin-left: 500px;
+}
+
+h2 {
+	margin-bottom: 50px;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	padding-top: 30px;
+	font-size: 1.5em;
+}
+
+p {
+	margin-right: 40px;
+	font-size: 1.25em;
+	
+}
+
+.image1 {
+	background-image: url("../images/newsletterDeepSpaceField.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+
+.image2 {
+	background-image: url("../images/neptune.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: left;
+}
+
+.image3 {
+	background-image: url("../images/tarantulaNebula.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: left;
+}
+
+.image4 {
+	background-image: url("../images/cartwheel.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: left;
+}
+
+.image5 {
+	background-image: url("../images/cosmicCliffs.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: left;
+}
+
+.image6 {
+	background-image: url("../images/newsletterDeepSpaceField.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: left;
+}
+
+form {
+	width: 35.25%;
+	height: 60%;
+	border: 10px #BDB5E5 solid; /* Light Blue */
+	background-color: #0E131B; /* Black */
+	padding: 50px;
+	margin-left: 550px;
+	font-size: 1.25em;
+}
+
+input {
+	color: #0E131B; /* Black */
+	font-size: 1.1em; 
+	border-radius: 5px;
+	background-color: #FFFFFF; /* White */
+}
+
+label {
+	color: #FFFFFF; /* White */
+}
+
+input[type=text] {
+	width: 70%;
+}
+		
+input[type=email] {
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: #FFFFFF; /* White */
+	color: #0E131B; /* Black */
+	padding: 3%;
+}
+
+input[type=submit]:hover {
+	background-color: green;
+	color: #FFFFFF; /* White */
+	padding: 3%;
+}
+input[type=reset] {
+	background-color: #FFFFFF; /* White */
+	color: #0E131B; /* Black */
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: #F5F3F4; /* White */
+	padding: 3%;
+}
+
+#resetBtn {
+	margin-left: 60px;
+}
+
+/* End of Main Styles */
+
+
+/* Footer Styles */
+
+footer {
+	background-color: #0E131B; /* Black */
+}
+
+footer h5 {
+	color: #FFFFFF; /* White */
+	background-color: #0E131B; /* Black */
+	text-align: center;
+	margin: 20px 400px 0px 400px;
+	padding: 10px;
+}
+
+footer h5 a {
+	color: #FFFFFF; /* White */ 
+	text-decoration: none;
+}
+
+footer h5 a:hover {
+	color: #BDB5E5;
+}
+
+.botNav {
+	padding: 20px;
+}
+
+.botNav a {
+	padding: 20px 54px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* End of Footer Styles */
+
+
+
+/* Unused Tags */
+
+body {
+	
+}
+
+table {
+	
+}
